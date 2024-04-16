@@ -1,0 +1,19 @@
+1) In an academic institution consider an electronic lab where a set of components will be provided to the students to complete their mini project. Assume that am group of 5 students are currenbtly working on a project in the lab and they require three types of components A B C to finish the pprojects on that day itself. The total quantities of the three components available in the lab are as follows:
+    A-10
+    B-7
+    C-8
+When the stduents have started doing their work, Each student has been provided with intitial set of components and remaining will be given later. On entry to the lab the stduent shd submit the maximum requirements of components. write a c program to implement the Banker's algorithm to satisfy the requirements of eeach studentts by avoiding the student to wait for indefinite time. Display the follwoing output on the screen:
+   1) Need matrix 
+   2) Available vector
+   3) if the system is in safe state find out the safe sequence. 
+
+The initial allocation and maximum requirement of each studentis given below:
+
+Student     Allocation     Max
+S_N         A  B  C        A  B  C
+S0          1  1  2        5  4  4
+S1          2  1  2        4  3  3
+S2          3  0  1        9  1  3
+S3          0  2  0        8  6  4
+S4          1  1  2        2  2  3
+
